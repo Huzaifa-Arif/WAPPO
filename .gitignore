@@ -1,0 +1,122 @@
+# =============================================================================
+# Data files (too large for git - use download links in README)
+# =============================================================================
+*.h5
+*.hdf5
+*.ckpt
+*.npy
+*.nc
+*.tar
+*.tar.gz
+
+# Keep only the directory structure for FourCast_Dataset
+FourCast_Dataset/data/
+FourCast_Dataset/model_weights/
+FourCast_Dataset/additional/
+
+# =============================================================================
+# Output directories (generated during experiments)
+# =============================================================================
+lightning_logs/
+runs/
+wandb/
+expts/
+ray_results/
+
+# Result directories
+*_results/
+*_perturbation/
+surface_pressure/
+temp_only_perturbation*/
+channel_no_constraints/
+patch_only_perturbation/
+patch_smooth_perturbation/
+perturbation_channels_only/
+unconstrained_perturbation/
+old_perturbed_results/
+brand_new/
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =============================================================================
+# Jupyter Notebooks
+# =============================================================================
+*.ipynb
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# =============================================================================
+# IDE and editors
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# =============================================================================
+# OS generated files
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =============================================================================
+# Output files
+# =============================================================================
+*.out
+*.err
+*.log
+*.png
+*.pdf
+*.eps
+*.svg
+*.gif
+*.pkl
+*.pickle
+
+# =============================================================================
+# Temporary and cache files
+# =============================================================================
+*.tmp
+*.temp
+.cache/
+
+# =============================================================================
+# Environment
+# =============================================================================
+.env
+.venv
+env/
+venv/
+ENV/
+
