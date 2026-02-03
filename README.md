@@ -139,11 +139,10 @@ WAPPO/
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{arif2024wappo,
-  title={WAPPO: Weather Adversarial Perturbation for AI Weather Prediction},
+@article{arif2025forecasting,
+  title={Forecasting Fails: Unveiling Evasion Attacks in Weather Prediction Models},
   author={Arif, Huzaifa and Chen, Pin-Yu and Gittens, Alex and Diffenderfer, James and Kailkhura, Bhavya},
-  journal={arXiv preprint arXiv:2512.08832},
-  year={2024},
+  year={2025}
   url={https://arxiv.org/pdf/2512.08832}
 }
 ```
