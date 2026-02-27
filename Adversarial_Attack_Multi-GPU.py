@@ -20,7 +20,8 @@ import sys
 torch.set_float32_matmul_precision('medium')
 
 
-# define metrics from the definitions above
+
+# d
 def lat(j: torch.Tensor, num_lat: int) -> torch.Tensor:
     return 90. - j * 180./float(num_lat-1)
 
